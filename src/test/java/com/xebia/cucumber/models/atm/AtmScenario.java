@@ -1,5 +1,8 @@
 package com.xebia.cucumber.models.atm;
 
+import com.xebia.models.atm.ATM;
+import com.xebia.models.atm.Account;
+import com.xebia.models.atm.CreditCard;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

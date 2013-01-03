@@ -1,5 +1,6 @@
 package com.xebia.cucumber.models.shoppinglist;
 
+import com.xebia.models.shoppinglist.ShoppingList;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
