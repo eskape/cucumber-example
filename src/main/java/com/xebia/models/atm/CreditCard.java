@@ -1,4 +1,4 @@
-package com.xebia.cucumber.example.atm;
+package com.xebia.models.atm;
 
 public class CreditCard {
 

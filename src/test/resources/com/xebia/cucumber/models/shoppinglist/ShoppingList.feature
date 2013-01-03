@@ -1,4 +1,4 @@
-Feature: Hello World
+Feature: Shopping list
 
   Scenario: Print my shopping list
     The list should be printed in alphabetical order of the item names

@@ -1,4 +1,4 @@
-package com.xebia.cucumber.example.atm;
+package com.xebia.cucumber.models.atm;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
