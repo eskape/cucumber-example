@@ -7,7 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class Page {
 
-    public WebDriver driver;
+    protected WebDriver driver;
+
 
     public Page(WebDriver driver) {
         this.driver = driver;

@@ -1,4 +1,4 @@
-package com.xebia.cucumber.models.atm;
+package com.xebia.cucumber.atm;
 
 import com.xebia.models.atm.ATM;
 import com.xebia.models.atm.Account;

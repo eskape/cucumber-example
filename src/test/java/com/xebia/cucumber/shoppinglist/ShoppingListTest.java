@@ -1,4 +1,4 @@
-package com.xebia.cucumber.models.shoppinglist;
+package com.xebia.cucumber.shoppinglist;
 
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;

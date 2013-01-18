@@ -1,4 +1,4 @@
-package com.xebia.cucumber.models.bol;
+package com.xebia.cucumber.bol;
 
 import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;
@@ -15,7 +15,6 @@ public class BolTest {
 
     @BeforeClass
     public static void beforeClass() {
-
         if (driver == null) {
             driver = new FirefoxDriver();
         }

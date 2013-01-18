@@ -9,8 +9,8 @@ Feature: Free Delivery
         Then the total price in basket should be <totalPrice>
         And the product delivery in basket should be <productDelivery>
 
-      Examples:
-        | product                          | totalPrice | productDelivery |
-        | "influence/1001004004861415"     | "€ 13,99"  | "€ 1,99"        |
-        | "agile-testing/1001004006392590" | "€ 35,99"  | "Gratis"        |
+        Examples:
+            | product                          | totalPrice | productDelivery |
+            | "influence/1001004004861415"     | "€ 13,99"  | "€ 1,99"        |
+            | "agile-testing/1001004006392590" | "€ 35,99"  | "Gratis"        |
 

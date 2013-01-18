@@ -1,4 +1,4 @@
-package com.xebia.cucumber.models.shoppinglist;
+package com.xebia.cucumber.shoppinglist;
 
 import com.xebia.models.shoppinglist.ShoppingList;
 import cucumber.api.java.en.Given;

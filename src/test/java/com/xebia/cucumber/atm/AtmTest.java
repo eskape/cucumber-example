@@ -1,4 +1,4 @@
-package com.xebia.cucumber.models.atm;
+package com.xebia.cucumber.atm;
 
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
