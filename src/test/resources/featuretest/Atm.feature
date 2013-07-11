@@ -15,6 +15,4 @@ Feature: Account Holder withdraws cash
   Examples:
     | account_balance | atm_available | request | result | newBalance |
     | 100             | 100           | 20      | 20     | 80         |
-    | 100             | 100           | 110     | 0      | 100        |
-    | 100             | 50            | 100     | 0      | 100        |
 

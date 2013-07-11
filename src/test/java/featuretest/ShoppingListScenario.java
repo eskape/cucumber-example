@@ -1,13 +1,20 @@
-package com.xebia.cucumber.shoppinglist;
+package featuretest;
 
+import com.xebia.models.atm.ATM;
+import com.xebia.models.atm.Account;
+import com.xebia.models.atm.CreditCard;
 import com.xebia.models.shoppinglist.ShoppingList;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 import java.util.List;
 
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertThat;
 
 public class ShoppingListScenario {
     private final ShoppingList shoppingList = new ShoppingList();
@@ -38,4 +45,6 @@ public class ShoppingListScenario {
         private String name;
         private Integer count;
     }
+
+
 }
