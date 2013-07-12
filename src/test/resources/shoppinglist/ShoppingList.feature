@@ -1,3 +1,4 @@
+@shopping
 Feature: Shopping list
 
   Scenario: Print my shopping list

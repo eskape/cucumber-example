@@ -1,3 +1,4 @@
+@atm
 Feature: Account Holder withdraws cash
   As an Account Holder
   I want to withdraw cash from an ATM
@@ -15,4 +16,4 @@ Feature: Account Holder withdraws cash
   Examples:
     | account_balance | atm_available | request | result | newBalance |
     | 100             | 100           | 20      | 20     | 80         |
-
+    | 100             | 100           | 20      | 20     | 80         |

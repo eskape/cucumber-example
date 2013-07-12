@@ -1,4 +1,4 @@
-package featuretest;
+package atm;
 
 import com.xebia.models.atm.ATM;
 import com.xebia.models.atm.Account;
@@ -7,9 +7,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertThat;
 
 public class AtmScenario {
 
@@ -41,12 +40,12 @@ public class AtmScenario {
 
     @Then("^the ATM should dispense (\\d*)$")
     public void checkMoney(int amount) {
-        assertThat(money, is(amount));
+        assertEquals(money, amount);
     }
 
     @Then("^the account balance should be (\\d*)$")
     public void checkBalance(int newBalance) {
-        assertThat(creditCard.getAccount().getBalance(), is(newBalance));
+        assertEquals(creditCard.getAccount().getBalance(), newBalance);
     }
 
     @Then("^the card should be returned$")
