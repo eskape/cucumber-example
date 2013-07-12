@@ -18,12 +18,14 @@ public class GenerateReport {
     private static final Boolean RUN_WITH_JENKINS = false;
     private static final Boolean ARTIFACTS_ENABLED = false;
     private static final String ARTIFACT_CONFIG = "";
+    private static final Boolean HIGH_CHARTS = true;
+
 
     public static void main(String[] args) throws Exception {
 
         String targetDir = String.format("%s/target/", new java.io.File( "." ).getCanonicalPath());
         File reportDirectory = new File(targetDir + "/cucumber-kishen-reports");
-        ReportBuilder reportBuilder = new ReportBuilder(getJsonReportFiles(targetDir), reportDirectory, PLUGIN_URL_PATH, BUILD_NUMBER, BUILD_PROJECT, SKIPPED_FAILS, UNDEFINED_FAILS, FLASH_CHARTS, RUN_WITH_JENKINS, ARTIFACTS_ENABLED, ARTIFACT_CONFIG);
+        ReportBuilder reportBuilder = new ReportBuilder(getJsonReportFiles(targetDir), reportDirectory, PLUGIN_URL_PATH, BUILD_NUMBER, BUILD_PROJECT, SKIPPED_FAILS, UNDEFINED_FAILS, FLASH_CHARTS, RUN_WITH_JENKINS, ARTIFACTS_ENABLED, ARTIFACT_CONFIG, HIGH_CHARTS);
         reportBuilder.generateReports();
 
     }
