@@ -14,7 +14,7 @@ public class GenerateReport {
     private static final String PLUGIN_URL_PATH = "";
     private static final Boolean SKIPPED_FAILS = false;
     private static final Boolean UNDEFINED_FAILS = false;
-    private static final Boolean FLASH_CHARTS = true;
+    private static final Boolean FLASH_CHARTS = false;
     private static final Boolean RUN_WITH_JENKINS = false;
     private static final Boolean ARTIFACTS_ENABLED = false;
     private static final String ARTIFACT_CONFIG = "";
