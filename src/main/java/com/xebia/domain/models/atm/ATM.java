@@ -1,4 +1,4 @@
-package com.xebia.models.atm;
+package com.xebia.domain.models.atm;
 
 public class ATM {
 

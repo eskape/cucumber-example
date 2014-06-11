@@ -1,4 +1,4 @@
-package com.xebia.seleniumpages;
+package com.xebia.application.seleniumpages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

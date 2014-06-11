@@ -1,4 +1,4 @@
-package com.xebia.models.shoppinglist;
+package com.xebia.domain.models.shoppinglist;
 
 import java.io.IOException;
 import java.util.Map;

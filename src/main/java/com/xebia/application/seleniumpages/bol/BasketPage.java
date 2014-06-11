@@ -1,6 +1,6 @@
-package com.xebia.seleniumpages.bol;
+package com.xebia.application.seleniumpages.bol;
 
-import com.xebia.seleniumpages.Page;
+import com.xebia.application.seleniumpages.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
