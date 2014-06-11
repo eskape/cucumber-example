@@ -55,4 +55,12 @@ public class AtmScenario {
         assertFalse(creditCard.isInUse());
     }
 
+    @Then("^blahdieblah$")
+    public void blahdieblah() throws Throwable {
+        // Express the Regexp above with the code you wish you had
+
+    }
+
+
+
 }

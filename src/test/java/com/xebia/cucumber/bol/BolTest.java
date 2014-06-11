@@ -5,18 +5,22 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.net.MalformedURLException;
 
 @RunWith(Cucumber.class)
-@Cucumber.Options(format = {"pretty", "html:target/cucumber-html-bol-report", "json-pretty:target/cucumber-bol-report.json"})
+@Cucumber.Options(format = {"pretty", "html:target/cucumber-html-bol-report", "json:target/cucumber-bol-report.json"})
 public class BolTest {
 
     public static WebDriver driver;
 
     @BeforeClass
-    public static void beforeClass() {
+    public static void beforeClass() throws MalformedURLException {
         if (driver == null) {
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
+            //DesiredCapabilities capability = DesiredCapabilities.chrome();
+            //driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
         }
         driver.get("about:blank");
     }
@@ -24,7 +28,7 @@ public class BolTest {
     @AfterClass
     public static void afterClass() {
         if (driver != null) {
-            driver.close();
+            driver.quit();
         }
     }
 

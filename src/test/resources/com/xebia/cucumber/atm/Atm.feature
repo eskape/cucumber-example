@@ -11,6 +11,7 @@ Feature: Account Holder withdraws cash
     Then the ATM should dispense <result>
     And the account balance should be <newBalance>
     And the card should be returned
+    And blahdieblah
 
   Examples:
     | account_balance | atm_available | request | result | newBalance |
